@@ -1,0 +1,11 @@
+# Exemple de configuration WireGuard (ne contient pas les clés réelles)
+
+[Interface]
+Address = 10.10.0.1/24
+ListenPort = 51820
+# PrivateKey = <à générer>
+
+# Exemple de peer développeur
+[Peer]
+# PublicKey = <clé_publique_client>
+AllowedIPs = 10.10.0.10/32
